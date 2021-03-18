@@ -1,0 +1,22 @@
+/*----------------- Fonts-----------------*/
+
+/*----------------- Background Colors-----*/
+.bg-color-head{
+    background-color: #f9f9f9;
+}
+/*----------------- Header-----------------*/
+.logo{
+   background: url("../images/ttlogo.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+   min-height: 200px;
+   background-color: #f9f9f9;
+   padding-top: 10px 20px 0 0;
+
+}
+
+.brand{
+    padding-top: 10px;
+    text-align: center;
+}
+/*----------------- Footer-----------------*/
