@@ -1,22 +1,85 @@
 /*----------------- Fonts-----------------*/
 
 /*----------------- Background Colors-----*/
-.bg-color-head{
-    background-color: #f9f9f9;
+body{
+    background-color: #fbfbfb;
 }
+footer{
+    background-color: #0062a1;
+}
+
+
 /*----------------- Header-----------------*/
-.logo{
-   background: url("../images/ttlogo.png");
-   background-repeat: no-repeat;
-   background-size: cover;
-   min-height: 200px;
-   background-color: #f9f9f9;
-   padding-top: 10px 20px 0 0;
-
-}
-
-.brand{
-    padding-top: 10px;
+.name{
     text-align: center;
 }
+.slogan{
+    text-align: center;
+}
+.list-inline-item a{
+    text-decoration: none;
+    color: #0062a1;
+}
+header{
+    margin-bottom: 10px;
+}
+
+.logo{
+    background-image: url(../images/logo.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 160px;
+}
+/*--------- Benefits -------------*/
+.benefit-left{
+    text-align: left;
+}
+.benefit-right{
+    text-align: right;
+}
+
+.benefit h2{
+    text-align: center;
+    color: #0062a1;
+}
+
+.benefit h3{
+    color: #f3101f;
+}
+
+/*----------------- Cards-----------------*/
+/*Card needs to be the same height and uniform throughout
+.card{
+    min-height: 210px;
+} */
+.card-row{
+    margin-top: 10px;
+    padding-top: 5px;
+}
+.head-tiger{
+    background-color: rgba(255, 166, 0, 0.726);
+    }
+.head-juniors{
+    background-color: #0063a1d0;
+}
+.head-seniors{
+    background-color: #f3101fe5;
+}
+.head-ladies{
+    background-color: rgba(255, 20, 147, .15);
+}
+
+/*.card-img-top{}*/
+
+/*----------------- Contact-Info-----------------*/
+.contact-info{
+    margin-top: 10px;
+}
 /*----------------- Footer-----------------*/
+footer{
+    margin-top: 10px;
+    padding-top: 5px;
+    text-align: center;
+    color: #fbfbfb;
+}
