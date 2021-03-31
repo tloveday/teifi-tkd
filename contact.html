@@ -27,7 +27,7 @@
                     <div class="col">
                             <ul id="nav" class="list-inline menucontainer">
                                 <li class="col-6 col-sm-3 list-inline-item menuitem">
-                                    <a href="index.html"><span>Home</span></a>
+                                    <a href="index.html"> <span>Home</span> </a>
                                 </li>
                                 <li class="col-6 col-sm-3 list-inline-item menuitem">
                                     <a href="about.html"><span>About</span></a>
@@ -52,61 +52,46 @@
                 </div>
         </header>
         <section>
-            <!-- About the Class -->
             <div class="container">
                 <div class="row">
-                    <div class="col-md-8 senior-class">
-                        <h2 class="class-heading">Seniors</h2>
-                        <table class="table">
-                            <thead>
-                                <tr>
-                                    <th scope="col">Tuesday & Thursday</th>
-                                    <th scope="col">7:30pm - 9:00pm</th>
-                                    <th scope="col">13+</th>
-                                    <th scope="col"><i class="fas fa-female"></i><i class="fas fa-male"></i></th>
-                                 </tr>
-                            </thead>
-                        </table>
-                        <img src="" alt="Seniors in training">
-                        <p>Text for the Seniors Sessions</p>
-                    </div>
-                    <div class="col-md-4">
-                        <h3>Class Coaches</h3>
-                        <div class="container">
-                <h2>Meet Our Coaching Team</h2>
-                <div class="row">
-                    <div class="col">
-                        <div class="card classcard">
-                            
-                            <img src="..." class="card-img-top" alt="Coach Laura">
-                          <div class="card-body">
-                                    <h4 class="card-title">Laura Williams</h4>
-                                    <h5 class="card-subtitle mb-2 text-muted">Head Instructor</h5>
-                          </div>
+                    <form class="col-md-8">
+                        <!--Form Itself-->
+                        <input type="text" class="form-control" placeholder="First name" aria-label="First name">
+                        <input type="text" class="form-control" placeholder="Last name" aria-label="Last name">
+                        <input type="email" class="form-control" placeholder="Email Address" aria-label="Email Address">
+                        <div>
+                            <p>Which classes are you interested in?</p>
+			                <input type="checkbox" id="tigers-checkbox" name="tigers">
+			                <label for="tigers-checkbox">Tigers</label>
+                            <input type="checkbox" id="juniors-checkbox" name="juniors">
+			                <label for="juniors-checkbox">Juniors</label>
+                            <input type="checkbox" id="seniors-checkbox" name="seniors">
+			                <label for="seniors-checkbox">Seniors</label>
+                            <input type="checkbox" id="ladies-checkbox" name="ladies">
+			                <label for="ladies-checkbox">Ladies</label>
                         </div>
-                    </div>
-                    <div class="col">
-                        <div class="card classcard">
-                            
-                            <img src="..." class="card-img-top" alt="Coach Holly">
-                          <div class="card-body">
-                                    <h4 class="card-title">Holly White</h4>
-                                    <h5 class="card-subtitle mb-2 text-muted">Senior Instructor</h5>
-                          </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card classcard">
-                            
-                            <img src="..." class="card-img-top" alt="Coach Adam">
-                          <div class="card-body">
-                                    <h4 class="card-title">Adam Knight</h4>
-                                    <h5 class="card-subtitle mb-2 text-muted">Instructor</h5>
-                          </div>
-                        </div>
+                        <button type="button" class="btn btn-danger">Free Lesson Please</button>
+                    </form>
+                    <div class="col-md-2">
+                        <h3><span class="badge bg-success">Free</span> Trial Lessons</h3>
+                        <p>Your first two lessons are competely <em>free</em>.</p>
+                        <p>Come along and see if Taekwondo is for you. </p>
+
+                        <h6>Free Dobok when you join up</h6>
+                        
                     </div>
                 </div>
             </div>
+            
+            <!-- Contact Information-->
+           <div class="container">
+                <div class="row contact-info">
+                    <div class="col-sm-6">
+                     Phone Number
+                     Email address
+                    </div>
+                    <div class="col-sm-6">
+                    Image of map location
                     </div>
                 </div>
             </div> 
