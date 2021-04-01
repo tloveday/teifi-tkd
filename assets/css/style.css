@@ -121,3 +121,13 @@ footer i{
 .table i{
     font-size: 30px;
 }
+
+.classimage{
+    height: 60%;
+    width: 60%;
+}
+
+#map{
+    max-height: 200px;
+    max-width: 200px;
+}
