@@ -35,7 +35,7 @@ header{
     background-repeat: no-repeat;
     min-height: 160px;
 }
-/*--------- Benefits -------------*/
+/*--------- Index -------------*/
 .benefit-left{
     text-align: left;
 }
@@ -54,6 +54,23 @@ header{
 
 .meaning{
     background-color: #f3101f;
+}
+
+#map{
+    max-height: 250px;
+    max-width: 250px;
+    border-radius: 2px;
+}
+
+.carousel{
+    background-color: #f3101f;
+    color: #fbfbfb;
+}
+.carousel-inner{
+    text-align: center;
+}
+.carousel-inner blockquote{
+    margin-top: 10px;
 }
 /*----------------- Cards-----------------*/
 .card-row{
@@ -97,18 +114,15 @@ header{
 margin-bottom: 20px;
 display: block;
 clear: both;
-
 }
 
 .contact-info-item .key, .contact-info-item .value{
 padding-right: 8px;
 display: inline-block;
-
 }
 
 .contact-info-item .key p, .contact-info-item .value p{
 margin: 0;
-
 }
 
 .contact-info-item .key{
@@ -116,18 +130,15 @@ width: 30%;
 margin-right: 21px;
 padding-top: 2px;
 vertical-align: top;
-
 }
 
 .contact-info-item .key p{
 font-weight: 700;
-
 }
 
 .contact-info-item .value{
 position: relative;
 width: 60%;
-
 }
 
 /*----------------- Footer-----------------*/
@@ -166,8 +177,3 @@ footer i{
     width: 150px;
 }
 
-#map{
-    max-height: 250px;
-    max-width: 250px;
-    border-radius: 2px;
-}
