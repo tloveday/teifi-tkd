@@ -56,10 +56,6 @@ header{
     background-color: #f3101f;
 }
 /*----------------- Cards-----------------*/
-/*Card needs to be the same height and uniform throughout
-.card{
-    min-height: 210px;
-} */
 .card-row{
     margin-top: 10px;
     padding-top: 5px;
@@ -76,7 +72,9 @@ header{
 .head-ladies{
     background-color: rgba(255, 20, 147, .15);
 }
-
+.classcard{
+    height: 475px;
+}
 .card-header{
     text-align: center;
     font-size: 20px;
@@ -89,12 +87,49 @@ header{
     margin: 5px;
 }
 
-/*.card-img-top{}*/
+.card-img-top{
+    max-height: 200px;
+}
 
 /*----------------- Contact-Info-----------------*/
-.contact-info{
-    margin-top: 10px;
+
+.contact-info-item{
+margin-bottom: 20px;
+display: block;
+clear: both;
+
 }
+
+.contact-info-item .key, .contact-info-item .value{
+padding-right: 8px;
+display: inline-block;
+
+}
+
+.contact-info-item .key p, .contact-info-item .value p{
+margin: 0;
+
+}
+
+.contact-info-item .key{
+width: 30%;
+margin-right: 21px;
+padding-top: 2px;
+vertical-align: top;
+
+}
+
+.contact-info-item .key p{
+font-weight: 700;
+
+}
+
+.contact-info-item .value{
+position: relative;
+width: 60%;
+
+}
+
 /*----------------- Footer-----------------*/
 footer{
     margin-top: 10px;
@@ -127,7 +162,12 @@ footer i{
     width: 60%;
 }
 
+.coachcard{
+    width: 150px;
+}
+
 #map{
-    max-height: 200px;
-    max-width: 200px;
+    max-height: 250px;
+    max-width: 250px;
+    border-radius: 2px;
 }

@@ -1,45 +1,61 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+Logo
+# Teifi Taekwondo
+[View live project here] (website address)
 
-Welcome tloveday,
+This is the primary  website for Teifi Taekwondo. It is designed for the purposes of furthering the clubs reach, enhanced marketing with the goal of recruiting more students to the classes offered at the club. It is designed to be responsive and accessible on a range of devices, with simple navigation for prospective students and their parent/guardians.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+Teifi Taekwondo is a fictional club based in St Dogmaels, on the banks of the River Teifi
 
-## Gitpod Reminders
+## Mock Up
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## User Experience
 
-`python3 -m http.server`
+### New User
+- Goal 1: As a New user I wish to be able to find information about the main purpose of the club
 
-A blue button should appear to click: *Make Public*,
+- Goal 2: As a New user I want to be able to easily navigate through the variety of pages to find the content and information I need (Class Times, location). 
 
-Another blue button should appear to click: *Open Browser*.
+- Goal 3: As a new user I wish to find links to the clubs (and if appropriate the coaches) social media to view images of the classes.
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+### Returning User
+- Find information about classes quickly, information in pricing etc.
 
-A blue button should appear to click: *Make Public*,
+## Design
+### Colour schemes
+The colours of the website are primarily off white and off black, symbols of the progress in Taekwondo. Alongside this for colour we have used a red and blue, traditional colours of competitors in competition. The four colours represent the colours of the flag of South Korea, the county from which originates Taekwondo from.
 
-Another blue button should appear to click: *Open Browser*.
+### Typography
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Imagery
+All images are from Stock found at
+- Stockphoto
+- Adobe Stock Images 
+### Languages Used
+- HTML
+- CSS
 
-## Updates Since The Instructional Video
+## Frameworks used
+- Bootstraps
+- Google Fonts
+- Font Awesome
+- Git
+- GitHub
+- Procreate: Procreate was used to create the logo, 
+- Balsamic: used to create the wire frames
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+### Testing User goals
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+### Further Testing
+Website was tested on a variety of browsers including Google Chrome, Safari, Firefox, And Edge.
+The website was viewed on a variety of devices including desktop, laptop, iPad, iPhone, Samsung
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+The Website was provided to friends and family to review and obtain feedback on user experience and these included practitioners of  Martial Arts including a Sensei of a local Karate club with the focus on the intended user goals.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+## Bugs
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+## Images
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
---------
-
-Happy coding!
+## Problems
+- After reviewing previous code taught and used in frameworks I came to question several times what I couldn’t get my Club logo to appear - confusion over directories alongside a learning curve prevented this.
+- Finding issues getting my logo to appear large enough to be seen yet small enough to not be overpowering. 
+- On class pages I positioned a shorter card representing the instructors taking those classes, however would regularly find my third instructor’s card would appear double the size of the coaches above.
