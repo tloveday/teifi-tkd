@@ -2,6 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;300;400;500;600;700;800&display=swap');
 
 /*----------------- Background Colors-----*/
+.nav_bg{
+            background-color: #0062a1 !important;
+        }
 body{
     background-color: #fbfbfb;
 }
@@ -26,15 +29,23 @@ h3{
 .name{
     text-align: center;
 }
+
 .slogan{
     text-align: center;
 }
-.menuitem a{
-    text-decoration: none;
-    color: #0062a1;
+
+.margin-title{
+    padding-top: 25px;
 }
+
+.nav-link{
+    font-size: x-large;
+    color:white !important;
+}
+
 header{
     margin-bottom: 10px;
+    padding-bottom:50px;
 }
 
 .logo{
@@ -45,6 +56,7 @@ header{
     min-height: 160px;
 }
 /*--------- Index -------------*/
+
 .benefit-left{
     text-align: left;
 }
@@ -63,6 +75,7 @@ header{
 .meaning{
     background-color: #f3101f;
     padding-top: 10px;
+    height: 300px;
 }
 
 .langk{
@@ -80,7 +93,10 @@ header{
 .translation .lange{
     margin-left: 5px;
 }
-#map{
+#why{
+    padding-bottom: 50px;
+}
+    #map{
     max-height: 250px;
     max-width: 250px;
     border-radius: 2px;
