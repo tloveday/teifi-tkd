@@ -8,10 +8,19 @@ body{
 footer{
     background-color: #0062a1;
 }
-
 /*----------------- General-----------------*/
 h1, h2, h3, h4, h5, h6{
     font-family: "Lexend", sans-serif;
+}
+
+h2{
+    color: #0062a1;
+}
+h3{
+    color: #f3101f;
+}
+.row{
+    margin-top: 10px;
 }
 /*----------------- Header-----------------*/
 .name{
@@ -20,7 +29,7 @@ h1, h2, h3, h4, h5, h6{
 .slogan{
     text-align: center;
 }
-.list-inline-item a{
+.menuitem a{
     text-decoration: none;
     color: #0062a1;
 }
@@ -45,7 +54,6 @@ header{
 
 .benefit h2{
     text-align: center;
-    color: #0062a1;
 }
 
 .benefit h3{
@@ -54,23 +62,45 @@ header{
 
 .meaning{
     background-color: #f3101f;
+    padding-top: 10px;
 }
 
+.langk{
+    font-size: 35px;
+    color: #2a2a2a;
+}
+.lange{
+    color: #fbfbfb;
+    font-size: 25px;
+}
+.translation{
+    color: #2a2a2a;
+    font-size: 20px;
+}
+.translation .lange{
+    margin-left: 5px;
+}
 #map{
     max-height: 250px;
     max-width: 250px;
     border-radius: 2px;
 }
-
-.carousel{
-    background-color: #f3101f;
-    color: #fbfbfb;
-}
-.carousel-inner{
-    text-align: center;
-}
-.carousel-inner blockquote{
+.mapdetails{
     margin-top: 10px;
+    margin-bottom: 10px;
+}
+.testimonials{
+    margin-top: 10px;
+}
+
+.imagequote{
+    height: 150px;
+    width: 150px;
+    border: solid 3px #0062a1;
+    border-radius: 50%;
+}
+.parent{
+    color: #0062a1;
 }
 /*----------------- Cards-----------------*/
 .card-row{
@@ -175,5 +205,12 @@ footer i{
 
 .coachcard{
     width: 150px;
+    margin-top: 10px;
 }
 
+/*------------------- Contact Page-----------------*/
+.dobok{
+    max-height: 200px;
+    max-width: 200px;
+    border-radius: 10%;
+}
