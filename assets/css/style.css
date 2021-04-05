@@ -102,10 +102,11 @@ header{
     border-radius: 2px;
 }
 .mapdetails{
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
-.testimonials{
+#classes{
     margin-top: 10px;
 }
 
@@ -144,6 +145,12 @@ header{
     font-weight: 600
 }
 
+.coach{
+    height: 700px;
+}
+.coach h4{
+    color: #f3101f;
+}
 .card i{
     text-align: center;
     color: #0062a1;
@@ -151,9 +158,14 @@ header{
 }
 
 .card-img-top{
-    max-height: 200px;
+    max-height: 150px;
 }
 
+.faq{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+}
 /*----------------- Contact-Info-----------------*/
 
 .contact-info-item{
@@ -215,8 +227,8 @@ footer i{
 }
 
 .classimage{
-    height: 60%;
-    width: 60%;
+    height: 90%;
+    width: 90%;
 }
 
 .coachcard{
