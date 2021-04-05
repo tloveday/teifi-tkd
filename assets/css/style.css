@@ -138,6 +138,8 @@ header{
 }
 .classcard{
     height: 475px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 .card-header{
     text-align: center;
@@ -212,10 +214,10 @@ footer i{
     margin: 5px;
 }
 /*------------------- Classes-----------------*/
-.class-heading{
+/*.class-heading{
     font-family: "Lexend", sans-serif;
     color: #0062a1;
-}
+}*/
 
 .table{
     font-family: "Lexend", sans-serif;
@@ -224,6 +226,7 @@ footer i{
 }
 .table i{
     font-size: 30px;
+    color: #f3101f;
 }
 
 .classimage{
@@ -236,6 +239,15 @@ footer i{
     margin-top: 10px;
 }
 
+#class-outline{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+
+.table{
+    vertical-align: center;
+}
 /*------------------- Contact Page-----------------*/
 .dobok{
     max-height: 200px;
