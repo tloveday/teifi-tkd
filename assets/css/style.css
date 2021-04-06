@@ -1,5 +1,5 @@
 /*----------------- Fonts-----------------*/
-@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;300;400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100;300;400;500;600;700&family=Poppins:wght@100;200;300;400;500&display=swap');
 
 /*----------------- Background Colors-----*/
 .nav_bg{
@@ -15,7 +15,9 @@ footer{
 h1, h2, h3, h4, h5, h6{
     font-family: "Lexend", sans-serif;
 }
-
+p{
+    font-family: "Poppins", sans-serif;
+}
 h2{
     color: #0062a1;
 }
@@ -24,6 +26,10 @@ h3{
 }
 .row{
     margin-top: 10px;
+}
+.heading{
+    text-align: center;
+    margin-bottom: 20px;
 }
 /*----------------- Header-----------------*/
 .name{
@@ -102,8 +108,8 @@ header{
     border-radius: 2px;
 }
 .mapdetails{
-    margin-top: 20px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
     padding-bottom: 20px;
 }
 #classes{
@@ -115,15 +121,16 @@ header{
     width: 150px;
     border: solid 3px #0062a1;
     border-radius: 50%;
+    position: center;
+}
+blockquote{
+    font-family: "Poppins", sans-serif;
 }
 .parent{
     color: #0062a1;
 }
 /*----------------- Cards-----------------*/
-.card-row{
-    margin-top: 10px;
-    padding-top: 5px;
-}
+
 .head-tiger{
     background-color: rgba(255, 166, 0, 0.726);
     }
@@ -146,9 +153,16 @@ header{
     font-size: 20px;
     font-weight: 600
 }
-
+.coaches{
+    margin-top: 20px;
+    padding-top: 15px;
+}
+.card-row{
+    margin-top: 10px;
+    padding-top: 10px;
+}
 .coach{
-    height: 700px;
+    height: 750px;
 }
 .coach h4{
     color: #f3101f;
@@ -214,10 +228,14 @@ footer i{
     margin: 5px;
 }
 /*------------------- Classes-----------------*/
-/*.class-heading{
-    font-family: "Lexend", sans-serif;
-    color: #0062a1;
-}*/
+.rules{
+    background-color: #0062a1;
+    color: #fbfbfb;
+
+}
+.rules h4{
+    text-align: center;
+}
 
 .table{
     font-family: "Lexend", sans-serif;
@@ -234,23 +252,25 @@ footer i{
     width: 90%;
 }
 
-.coachcard{
-    width: 150px;
-    margin-top: 10px;
-}
-
 #class-outline{
-    margin-top: 10px;
+    margin-top: 20px;
     margin-bottom: 10px;
+    padding-top: 10px;
     padding-bottom: 10px;
 }
-
-.table{
-    vertical-align: center;
+.progress{
+    height: 15px;
 }
 /*------------------- Contact Page-----------------*/
 .dobok{
     max-height: 200px;
     max-width: 200px;
     border-radius: 10%;
+}
+label{
+    font-family: "Poppins", sans-serif
+}
+textarea{
+    width: 60%;
+    height: 100px;
 }
