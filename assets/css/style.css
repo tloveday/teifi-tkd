@@ -163,6 +163,7 @@ blockquote{
 .coach{
     height: 750px;
 }
+
 .coach h4{
     color: #f3101f;
 }
@@ -263,6 +264,10 @@ footer i{
     border: solid 3px #0062a1;
     border-radius: 50%;
 }
+
+.classes{
+    margin-top: 40px;
+}
 /*------------------- Contact Page-----------------*/
 .dobok{
     max-height: 200px;
@@ -275,4 +280,15 @@ label{
 textarea{
     width: 60%;
     height: 100px;
+}
+.contactbutton{
+    margin-top: 15px;
+}
+
+.queries{
+    margin-top: 20px;
+}
+
+body{
+    overflow-x: hidden;
 }
