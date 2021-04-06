@@ -121,7 +121,6 @@ header{
     width: 150px;
     border: solid 3px #0062a1;
     border-radius: 50%;
-    position: center;
 }
 blockquote{
     font-family: "Poppins", sans-serif;
@@ -258,8 +257,11 @@ footer i{
     padding-top: 10px;
     padding-bottom: 10px;
 }
-.progress{
-    height: 15px;
+.imagecoach{
+    height: 100px;
+    width: 100px;
+    border: solid 3px #0062a1;
+    border-radius: 50%;
 }
 /*------------------- Contact Page-----------------*/
 .dobok{
